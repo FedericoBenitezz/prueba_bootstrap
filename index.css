@@ -1,0 +1,72 @@
+/*Inicio estilos index*/
+.text-light{
+    --bs-text-opacity:.7
+}
+
+.text-muted{
+    letter-spacing: 5px;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/*MENU*/
+
+#menu a{
+    font-size: 18px;
+    font-weight:bold;
+    color:#414141;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight:bold;
+} 
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+/*MEDIA QUERIES PANTALLA SM*/
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+
+
+
+   
+}
+
+
+
+
+/*SECCION CONTACTO*/
+
+#bg-contacto{
+    position: relative;
+    top:-55px
+
+}
+
+#seccion-contacto{
+    background-color: #a2d9ff;
+    min-height:500px;
+    position: relative;
+}
+
+footer{
+    background:#a2d9ff;
+    min-height: 100px;
+}
+
+footer p{
+    color:#f3f3f3;
+
+}
+#iconos i{
+    font-size:26px;
+    padding: 0 8px;
+}
